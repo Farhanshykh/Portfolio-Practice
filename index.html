@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav>
+        <label for="Logo">Portfo<span>lio</span></label>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Hi There,<br>This is <span class="Name">Farhan Yaseen</span></h1>
+        <h2>I am a <span class="auto-type"></span></h2>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Student", " And Developer"],
+            typeSpeed: 120,
+            backSpeed: 120,
+            loop: true
+        })
+
+    </script>
+</body>
+</html>
