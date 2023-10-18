@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../ZwdNYK.webp);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+nav{
+    background-color: blueviolet;
+    height: 80px;
+    width: 100%;
+}
+
+label{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: aquamarine;
+    line-height: 80px;
+    padding: 0 100px;
+}
+
+span{
+    color: pink;
+    font-size: 32px;
+}
+
+nav ul{
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: hotpink;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+}
+
+a:hover{
+    background: #03D6FA;
+    transition: .5s;
+}
+
+h1{
+    font-size: 35px;
+    color: blueviolet;
+    margin: 60px 75px;
+    font-family: 'Nunito', sans-serif;
+}
+.Name{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: #598C94;
+    font-weight: bold;
+
+}
+
+h2{
+    font-family: 'Nunito', sans-serif;
+    color: blueviolet;
+    font-size: 30px;
+    margin: 0 70px;
+}
+
+.auto-type{
+    color: #598C94;
+    font-size: 40px;
+}
